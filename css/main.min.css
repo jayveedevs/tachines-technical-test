@@ -1,0 +1,415 @@
+@font-face {
+    font-family: "NimbusSanL-Reg";
+    src: url(/fonts/NimbusSanL-Reg.otf);
+}
+
+@font-face {
+    font-family: "NimbusSanL-Bol";
+    src: url(/fonts/NimbusSanL-Bol.otf);
+}
+
+@font-face {
+    font-family: "GTEestiProDisplay-Bold";
+    src: url(/fonts/GTEestiProDisplay-Bold.ttf);
+}
+
+/* Theming */
+
+body {
+    font-family: NimbusSanL-Reg;
+    background-color: #F9F9F9;
+}
+
+button.btn {
+    border-radius: 0px;
+}
+
+button.btn.btn-secondary {
+    background-color: #6CC1FF;
+    border-color: #6CC1FF;
+}
+
+button.btn.btn-primary {
+    background-color: #043ED6;
+    border-color: #043ED6;
+}
+
+button.btn.btn-dark {
+    background-color: #131E35;
+    border-color: #131E35;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+a {
+    color: #6cc6ff;
+    text-decoration: none;
+}
+
+/* End of Theming */
+
+/* Sub Navigation */
+
+.sub-navigation .sub-nav-bg {
+    background-color: #fafafa!important;
+    height: 30px;
+}
+
+.sub-navigation .navbar-light .navbar-nav .nav-link {
+    color: #697384;
+    font-size: 10px;
+}
+
+.sub-navigation li.nav-item {
+    margin-left: 40px;
+}
+
+.sub-navigation .dropdown-item {
+    color: #697384;
+    font-size: 10px;
+}
+
+.sub-navigation .language-select {
+    font-size: 10px;
+    color: #697384;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+.sub-navigation .flag-icon {
+    width: 14px;
+    margin-right: 10px;
+}
+
+.sub-navigation .language-dropdown {
+    margin-left: 70px !important;
+}
+
+/* End of Sub Navigation */
+
+/* Navigation */
+
+.navigation .nav-bg {
+    background-color: #fff !important;
+    height: 70px;
+}
+
+.navigation #search-bar::-webkit-input-placeholder {
+    /* Edge */
+    color: #131e35;
+}
+
+.navigation #search-bar:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #131e35;
+}
+
+.navigation #search-bar::placeholder {
+    color: #131e35;
+}
+
+.navigation #search-bar {
+    padding: 0.375rem 1.3rem;
+    font-size: 16px;
+    color: #131E35;
+    background-color: #fff;
+    border: 1px solid #131e35;
+    border-radius: 0px;
+    font-family: 'GTEestiProDisplay-Bold';
+    height: 56px;
+}
+
+.navigation button.btn {
+    font-family: 'GTEestiProDisplay-Bold';
+    border-radius: 0px;
+    padding: 15px 25px;
+}
+
+.btn-primary-arrow:after, .btn-secondary-arrow:after, .btn-dark-arrow-search:after, .btn-dark-arrow::after, .btn-primary-arrow-check:after {
+    display: block;
+    content: ' ';
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    height: 25px;
+    background-position-x: center;
+    width: 22px;
+    position: absolute;
+    margin-left: -29px;
+    margin-top: -6px;
+}
+
+.btn-primary-arrow:after, .btn-primary-arrow-check:after {
+    background-image: url(/assets/primary-btn.svg);
+}
+
+.btn-secondary-arrow:after {
+    background-image: url(/assets/secondary-btn.svg);
+}
+
+.btn-dark-arrow-search:after, .btn-dark-arrow:after {
+    background-image: url(/assets/dark-btn.svg);
+}
+
+.btn-primary-arrow-check {
+    height: 59px;
+    width: 59px;
+}
+
+.btn-primary-arrow-check:after {
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.btn-dark-arrow-search:after {
+    height: 21px;
+}
+
+/* End of Navigation */
+
+.banner-announcer-bg {
+    background-color: #F0F9FF;
+}
+
+.main-banner {
+    width: 100%;
+    height: 200px;
+}
+
+.sidebar-banner {
+    height: 300px;
+}
+
+.sidebar-banner-default {
+    height: 150px;
+}
+
+.main-content .advertise-wrapper .title, .main-content .advertise-quality-wrapper .title, .main-content .advertise-success-wrapper .title {
+    font-size: 32px;
+    font-family: 'GTEestiProDisplay-Bold';
+    line-height: 44.08px;
+}
+
+.main-content .advertise-quality-wrapper .content {
+    font-size: 16px;
+}
+
+.main-content .advertise-wrapper, .main-content .advertise-quality-wrapper {
+    padding: 40px;
+}
+
+.main-content .advertise-success-wrapper {
+    padding: 59px;
+}
+
+.main-content ul.social-icons {
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.main-content ul.social-icons>li {
+    width: 35px;
+    height: 35px;
+}
+
+.main-content ul.social-icons>li button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .card-bg {
+    padding: 20px;
+    border: 1px solid #131E35;
+}
+
+.main-content .description {
+    font-size: 14px;
+}
+
+.main-content .card-bg .title {
+    font-size: 26px;
+    font-family: 'GTEestiProDisplay-Bold';
+}
+
+.main-content .card-bg .description .gray-text {
+    color: #C4C4C4;
+    font-family: 'NimbusSanL-Bol';
+}
+
+.main-content .card-bg .description .blue-text {
+    color: #6CC1FF;
+    font-family: 'NimbusSanL-Bol';
+}
+
+.main-content .card-bg button.btn {
+    font-family: 'GTEestiProDisplay-Bold';
+    border-radius: 0px;
+    padding: 15px 25px;
+}
+
+.main-content .advertise-wrapper .list-group-item {
+    position: relative;
+    display: block;
+    padding: 15px 0px;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px;
+    font-family: 'NimbusSanL-Bol';
+    font-size: 22px;
+}
+
+.main-content .form-check-input[type=checkbox] {
+    border-radius: 0px;
+    margin-right: 22px !important;
+    width: 30px;
+    height: 30px;
+}
+
+.main-content .form-check-input:checked {
+    background-color: #043ED6;
+    border-color: #043ED6;
+}
+
+.main-content .form-check-input:checked[type=checkbox] {
+    background-image: url(/assets/check.svg);
+    background-size: 15px;
+}
+
+.main-content .hr-list-1, .main-content .hr-list-2, .main-content .hr-list-3 {
+    margin-left: 14px;
+    width: 1px;
+    background-color: #C4C4C4;
+    position: absolute;
+    z-index: 1;
+    height: 36px;
+}
+
+.main-content .hr-list-1 {
+    margin-top: 51px;
+}
+
+.main-content .hr-list-2 {
+    margin-top: 117px;
+}
+
+.main-content .hr-list-3 {
+    margin-top: 183px;
+}
+
+.footer {
+    background-color: #131E35;
+    color: #fff;
+    padding-top: 78px;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .foot-title {
+    font-family: 'NimbusSanL-Bol';
+    font-size: 18px;
+}
+
+.footer .contact-us-email {
+    font-family: 'GTEestiProDisplay-Bold';
+}
+
+.footer .social-icons .btn-white {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer hr {
+    opacity: 1;
+}
+
+.footer .copyright, .footer .legal-docs {
+    font-family: 'GTEestiProDisplay-Bold';
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 375px) {
+    button.btn.btn-dark.btn-dark-arrow-search {
+        width: 100%;
+    }
+    .navigation .button-wrapper button {
+        width: 100%;
+    }
+    .main-content .card-bg button.btn {
+        width: 100%;
+    }
+    .main-content .advertise-wrapper .list-group-item {
+        font-size: 20px;
+    }
+    .main-content .hr-list-1 {
+        margin-top: 50px;
+    }
+    .main-content .hr-list-2 {
+        margin-top: 114px;
+    }
+    .main-content .hr-list-3 {
+        margin-top: 179px;
+    }
+    .main-content .advertise-success-wrapper {
+        padding: 10px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .footer .right-border {
+        border-right: 0px solid #fff
+    }
+    .main-content .advertise-success-wrapper {
+        padding: 59px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .navigation #search-bar {
+        width: 200px;
+    }
+    button.btn.btn-dark.btn-dark-arrow-search {
+        width: auto;
+    }
+    .navigation .button-wrapper button {
+        width: auto;
+    }
+    .main-content .card-bg button.btn {
+        width: auto;
+    }
+    .footer .right-border {
+        border-right: 1px solid #fff
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    .navigation #search-bar {
+        width: 550px;
+    }
+}
